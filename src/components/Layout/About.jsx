@@ -1,7 +1,7 @@
 import React from "react";
-import img1 from "../../assets/icon-8.png";
-import img2 from "../../assets/icon-9.png";
-import img3 from "../../assets/icon-10.png";
+import img1 from "../../assets/Icon (8).png";
+import img2 from "../../assets/Icon (9).png";
+import img3 from "../../assets/Icon (10).png";
 
 const About = () => {
   const cards = [
@@ -56,8 +56,8 @@ const About = () => {
             </button>
           </div>
         </div>
-
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 md:gap-10">
+
           {cards.map((card, index) => (
             <div
               key={index}
@@ -69,7 +69,11 @@ const About = () => {
                 ${card.hover ? "hover:bg-[#0F3E1E] hover:text-white" : ""}
               `}
             >
-              <img src={card.img} alt={card.title} className="w-12 h-12 sm:w-14 sm:h-14 mb-6" />
+              <img
+                src={card.img}
+                alt={card.title}
+                className="w-12 h-12 sm:w-14 sm:h-14 mb-6"
+              />
 
               <h3
                 className={`text-lg sm:text-xl md:text-2xl font-bold mb-3 ${card.textColor} 
@@ -86,6 +90,7 @@ const About = () => {
               </p>
             </div>
           ))}
+
         </div>
       </div>
     </section>

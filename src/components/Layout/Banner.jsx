@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../assets/illustration.png"; // fixed relative path
+import img from "@/assets/illustration.png"; // fixed import using alias
 
 const Banner = () => {
   return (

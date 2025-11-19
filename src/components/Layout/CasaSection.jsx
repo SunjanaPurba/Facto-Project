@@ -1,10 +1,10 @@
 import React from "react";
-import leaf from "../../assets/Icon (12).png";
-import visa from "../../assets/Frame 2121454921.png";
-import money from "../../assets/Icon (13).png";
-import cardSlash from "../../assets/Icon (14).png";
-import cardAdd from "../../assets/Icon (15).png";
-import cardTick from "../../assets/Icon (16).png";
+import leaf from "../../assets/icon-12.png";
+import visa from "../../assets/visa.png";
+import money from "../../assets/icon-13.png";
+import cardSlash from "../../assets/icon-14.png";
+import cardAdd from "../../assets/icon-15.png";
+import cardTick from "../../assets/icon-16.png";
 
 const CasaSection = () => {
   const salesData = [28, 38, 32, 80, 68, 55, 48];
